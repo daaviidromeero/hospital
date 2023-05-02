@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS bd_hospital;
-CREATE DATABASE bd_hospital CHARACTER SET utf8mb4;
+DROP DATABASE IF EXISTS hospital;
+CREATE DATABASE hospital CHARACTER SET utf8mb4;
 
-USE bd_hospital;
+USE hospital;
 
 CREATE TABLE hospitales (
   cod_hospital INTEGER PRIMARY KEY,
